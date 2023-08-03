@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Echo Message') {
             steps {
-                sh 'ls'
+                sh 'mkdir kushal'
             }
         }
     }
